@@ -1,0 +1,34 @@
+.component-grid {
+    display: grid;
+    grid-template-rows: 80px auto;
+}
+
+.disabled-btn {
+    opacity: 0.6;
+}
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    /* 100% of the viewport height */
+}
+
+.footer{
+    display: flex;
+    align-items: flex-end;
+}
+
+.login-box {
+    width: 300px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: rgb(104, 68, 26); /* Change the background color here */;
+  }
+
+  .logo{
+    height: auto;
+    width: 50vh;
+  }
